@@ -13,7 +13,7 @@ function App() {
 
   const hesapla = () => {
     try {
-      // eval() kullanımı basit projeler için uygundur
+     
       setDeger(eval(deger).toString());
     } catch {
       setDeger("Hata!");
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      {/* Hareketli Arka Plan Baloncukları */}
+      {}
       <div className="background-animate">
         <div className="circle" style={{width: '200px', height: '200px', top: '10%', left: '10%'}}></div>
         <div className="circle" style={{width: '150px', height: '150px', bottom: '20%', right: '15%', animationDuration: '15s'}}></div>
@@ -30,7 +30,7 @@ function App() {
         <div className="circle" style={{width: '250px', height: '250px', bottom: '5%', left: '20%', animationDuration: '20s'}}></div>
       </div>
       
-      {/* Hesap Makinesi Kasası */}
+      {}
       <div className="hesap-makinesi">
         <div className="ekran">{deger || "0"}</div>
         <div className="butonlar">
